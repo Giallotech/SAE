@@ -44,8 +44,7 @@ nav {
   z-index: 1;
 } */
 
-.logo {
-  content: url(images/logo.svg);
+nav img {
   height: 160px;
 }
 
@@ -444,8 +443,12 @@ hr {
     padding: 0px 25px;
     gap: 0;
   }
-  .logo {
-    content: url(images/logo.svg);
+
+  /* nav.sticky {
+    padding: 30px 25px;
+  } */
+
+  nav img {
     height: 100px;
   }
   .menu-button-container {
