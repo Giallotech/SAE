@@ -279,7 +279,7 @@ button:hover {
       rgba(0, 0, 0, 0.8) 0%,
       rgba(0, 0, 0, 0) 47.92%
     ),
-    url(images/Homepage/Vineyard\ Large.jpg);
+    url(images/Homepage/vineyard-large.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -328,7 +328,7 @@ button:hover {
       rgba(0, 0, 0, 0.8) 0%,
       rgba(0, 0, 0, 0) 47.92%
     ),
-    url(images/Homepage/Wine_Cellar_Large.jpg);
+    url(images/Homepage/wine_cellar_large.jpg);
   background-size: cover;
   background-position: center;
 }
