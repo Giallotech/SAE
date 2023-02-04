@@ -213,7 +213,7 @@ button:hover {
   position: absolute;
   width: 100vw;
   height: 63px;
-  top: 85vh;
+  top: 82vh;
   transform: translateY(20vh);
   animation: slide-down 2s forwards;
   animation-delay: 2s;
@@ -308,7 +308,6 @@ button:hover {
 }
 
 .content p {
-  width: 864px;
   height: fit-content;
   font-weight: 400;
   font-size: 20px;
@@ -485,9 +484,6 @@ hr {
     width: 100vw;
     padding: 35px 25px;
     gap: 21px;
-  }
-  .content p {
-    width: 378px;
   }
   .content h2 {
     width: 340px;
