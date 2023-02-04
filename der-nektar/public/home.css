@@ -415,7 +415,8 @@ hr {
     display: none;
   }
   nav {
-    padding: 30px 25px;
+    height: min-content;
+    padding: 0px 25px;
     gap: 0;
   }
   /* nav.sticky {
