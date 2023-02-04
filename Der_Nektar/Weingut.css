@@ -21,7 +21,7 @@ body {
       rgba(0, 0, 0, 0.5) 0%,
       rgba(0, 0, 0, 0) 23.44%
     ),
-    url(images/Unser_Weingut/organic_farm_sign.jpg) 0 0 repeat;
+    url(images/unser-weingut/organic-farm-sign.jpg) 0 0 repeat;
   background-size: cover;
   background-position: center;
 }

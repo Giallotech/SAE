@@ -29,7 +29,7 @@ body {
       rgba(0, 0, 0, 0.5) 0%,
       rgba(0, 0, 0, 0) 23.44%
     ),
-    url(images/Homepage/home-background.jpg) 0 0 repeat;
+    url(images/homepage/home-background.jpg) 0 0 repeat;
   background-size: cover;
   background-position: center;
   animation: zoom 2s ease-in reverse forwards;
@@ -279,7 +279,7 @@ button:hover {
       rgba(0, 0, 0, 0.8) 0%,
       rgba(0, 0, 0, 0) 47.92%
     ),
-    url(images/Homepage/vineyard-large.jpg);
+    url(images/homepage/vineyard-large.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -328,7 +328,7 @@ button:hover {
       rgba(0, 0, 0, 0.8) 0%,
       rgba(0, 0, 0, 0) 47.92%
     ),
-    url(images/Homepage/wine_cellar_large.jpg);
+    url(images/homepage/wine-cellar-large.jpg);
   background-size: cover;
   background-position: center;
 }
