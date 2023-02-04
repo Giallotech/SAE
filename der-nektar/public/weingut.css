@@ -341,7 +341,7 @@ hr {
   color: #ffffff;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 900px) {
   button {
     display: none;
   }
