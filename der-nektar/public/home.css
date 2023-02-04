@@ -474,6 +474,11 @@ hr {
     left: 45vw;
     top: 30vh;
     width: 178px;
+    height: 171px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .quote span {
     font-size: 24px;
   }
   .content {
