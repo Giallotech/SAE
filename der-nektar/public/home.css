@@ -408,12 +408,16 @@ hr {
   color: #ffffff;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 428px) {
+  body {
+    overflow-x: hidden;
+  }
   nav button {
     display: none;
   }
   nav {
     padding: 30px 25px;
+    gap: 0;
   }
   /* nav.sticky {
     padding: 30px 25px;
@@ -467,12 +471,13 @@ hr {
     background-color: #da892a;
   }
   .quote {
-    left: 37vw;
-    top: 32vh;
-    width: 246px;
-    font-size: 32px;
+    left: 45vw;
+    top: 30vh;
+    width: 178px;
+    font-size: 24px;
   }
   .content {
+    width: 100vw;
     padding: 35px 25px;
     gap: 21px;
   }
