@@ -347,6 +347,7 @@ hr {
   }
   nav {
     padding: 30px 25px;
+    gap: 0;
   }
   .logo {
     content: url(images/logo.svg);
@@ -391,6 +392,9 @@ hr {
   .navigation > li:last-child {
     display: flex;
     background-color: #da892a;
+  }
+  .scroll {
+    top: 78vh;
   }
   .vision {
     padding: 29px 25px;
