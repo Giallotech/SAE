@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+  font-style: normal;
+}
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0) 23.44%
+    ),
+    url(images/Unser_Weingut/organic_farm_sign.jpg) 0 0 repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  height: 160px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding: 0px 150px;
+  gap: 140px;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+/* nav.sticky {
+  padding: 0px 150px;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+} */
+
+.logo {
+  content: url(images/logo.svg);
+  height: 160px;
+}
+
+/* link styles */
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+a:focus,
+a:hover,
+a:active {
+  color: #9d45f4;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 85px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.navigation > li {
+  overflow: hidden;
+}
+.navigation > li:last-child {
+  display: none;
+}
+
+.menu-button-container {
+  display: none;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: white;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+  margin-left: auto;
+}
+
+.menu-button::before {
+  content: '';
+  margin-top: -8px;
+}
+
+.menu-button::after {
+  content: '';
+  margin-top: 8px;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+
+button {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 14px 28px;
+  gap: 10px;
+  width: fit-content;
+  height: 48px;
+  background: #da892a;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.scroll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+  gap: 19px;
+  position: absolute;
+  width: 100vw;
+  height: 63px;
+  top: 85vh;
+}
+
+.scroll img {
+  width: 15px;
+  height: 20px;
+}
+
+.scroll span {
+  width: 124px;
+  height: 24px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.vision {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 150px;
+  gap: 15px;
+  width: 100vw;
+  left: 0px;
+  top: 100vh;
+  font-style: normal;
+  text-align: center;
+  color: #352f2f;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  color: #352f2f;
+}
+.vision p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.line {
+  width: 455px;
+  margin: auto;
+  border: 1px solid rgba(53, 47, 47, 0.6);
+}
+
+.weintrauben {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 61px;
+  width: 100vw;
+  padding: 40px 150px;
+}
+
+.rebe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 78px;
+  width: 100%;
+}
+
+.rebe img {
+  width: 751px;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #352f2f;
+}
+
+.weintrauben p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #352f2f;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  position: relative;
+  padding: 60px 150px;
+  width: 100vw;
+  background: #501016;
+}
+hr {
+  height: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.footer-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 80px;
+}
+.branding {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+  width: 361.6px;
+  height: 189px;
+}
+
+.social {
+  width: 30px;
+  height: 29px;
+}
+
+.social-line {
+  display: none;
+}
+
+.find-us {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 70px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.find-us-line {
+  display: none;
+}
+.find-us span {
+  text-transform: uppercase;
+}
+
+.copyrights {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  height: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  button {
+    display: none;
+  }
+  nav {
+    padding: 30px 25px;
+  }
+  .logo {
+    content: url(images/logo.svg);
+    height: 100px;
+  }
+  .menu-button-container {
+    display: flex;
+  }
+  .navigation {
+    position: absolute;
+    top: 0;
+    margin-top: 160px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+  #menu-toggle ~ .navigation li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  #menu-toggle:checked ~ .navigation li {
+    height: 2.5em;
+    padding: 3em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .navigation > li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+    text-align: center;
+    width: 100vw;
+    background-color: #501016;
+  }
+  .navigation > li:last-child {
+    display: flex;
+    background-color: #da892a;
+  }
+  .vision {
+    padding: 29px 25px;
+  }
+
+  h2 {
+    font-weight: 500;
+    font-size: 32px;
+  }
+
+  .vision p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .weintrauben {
+    padding: 20px 0;
+    gap: 20px;
+  }
+  .rebe {
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .line {
+    width: 150px;
+  }
+
+  .rebe div {
+    width: 100%;
+    order: 1;
+    text-align: center;
+    padding: 0 25px;
+  }
+
+  .rebe img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  footer {
+    padding: 0 0 25px;
+    gap: 25px;
+  }
+  .footer-box {
+    flex-direction: column;
+    gap: 0;
+  }
+  .social-line {
+    display: inline;
+    width: 100vw;
+  }
+  .find-us {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    margin-top: 25px;
+  }
+  .find-us-line {
+    display: inline;
+    width: 150px;
+  }
+  .copyrights {
+    padding: 0px 25px;
+    font-size: 12px;
+  }
+}
