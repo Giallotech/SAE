@@ -264,6 +264,9 @@ li {
   text-align: left;
   color: #352f2f;
 }
+.erlebnisse li {
+  margin-left: 20px;
+}
 
 #buchen {
   display: flex;
