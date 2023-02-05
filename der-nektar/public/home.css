@@ -295,8 +295,6 @@ button:hover {
 .content h2 {
   width: 442px;
   height: fit-content;
-  font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 500;
   font-size: 40px;
   line-height: 49px;
@@ -492,7 +490,13 @@ hr {
     gap: 21px;
   }
   .content h2 {
+    font-size: 36px;
+    line-height: 44px;
     width: 340px;
+  }
+  .content p {
+    font-size: 16px;
+    line-height: 20px;
   }
   footer {
     padding: 0 0 25px;
