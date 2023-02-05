@@ -380,6 +380,10 @@ hr {
   padding: 0px;
   gap: 80px;
 }
+.logo {
+  content: url(images/logo.svg);
+  height: 160px;
+}
 .branding {
   display: flex;
   flex-direction: column;
@@ -551,6 +555,9 @@ hr {
   .footer-box {
     flex-direction: column;
     gap: 0;
+  }
+  .logo {
+    height: 100px;
   }
   .social-line {
     display: inline;
