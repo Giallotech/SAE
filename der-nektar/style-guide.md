@@ -25,5 +25,5 @@ The designs were created to the following widths:
 ### Body
 
 - Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
-- Weights: 500, 800
+- Weights: 500
 - Font size: 16px, 20px, 36px
