@@ -428,6 +428,7 @@ hr {
   }
   .menu-button-container {
     display: flex;
+    z-index: 1;
   }
 
   .navigation {
@@ -452,7 +453,7 @@ hr {
 
   #menu-toggle:checked ~ .navigation li {
     height: 2.5em;
-    padding: 3em;
+    padding: 2.5em;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
 
