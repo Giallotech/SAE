@@ -212,7 +212,7 @@ button:hover {
   position: absolute;
   width: 100vw;
   height: 63px;
-  top: 92vh;
+  top: 87vh;
   transform: translateY(20vh);
   animation: slide 2s forwards;
   animation-delay: 2s;
