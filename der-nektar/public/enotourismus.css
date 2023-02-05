@@ -52,13 +52,13 @@ nav img {
 a {
   text-decoration: none;
   color: white;
-  transition: all 0.5s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 a:focus,
 a:hover,
 a:active {
-  color: #9d45f4;
+  color: #ba2ada;
 }
 
 .navigation {
@@ -157,6 +157,7 @@ button {
 button:hover {
   transform: scale(1.1);
   cursor: pointer;
+  transition: all 0.3s ease-out;
 }
 
 .scroll {
@@ -169,23 +170,32 @@ button:hover {
   position: absolute;
   width: 100vw;
   height: 63px;
-  top: 85vh;
+  top: 92vh;
 }
 
 .scroll img {
   width: 15px;
   height: 20px;
+  animation: bouncing 2s infinite;
+}
+.scroll p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
-.scroll span {
-  width: 124px;
-  height: 24px;
-  font-family: 'Montserrat';
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
-  color: #ffffff;
+@keyframes bouncing {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3vh);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .besser {
@@ -504,8 +514,11 @@ hr {
     display: flex;
     background-color: #da892a;
   }
+  .scroll p {
+    display: none;
+  }
   .scroll {
-    top: 78vh;
+    top: 85vh;
   }
   .form-box {
     max-width: 100%;
@@ -582,5 +595,10 @@ hr {
   .copyrights {
     padding: 0px 25px;
     font-size: 12px;
+  }
+}
+@media screen and (min-width: 428px) and (max-width: 932px) {
+  .scroll {
+    top: 75vh;
   }
 }
