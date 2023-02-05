@@ -533,3 +533,12 @@ hr {
     font-size: 12px;
   }
 }
+@media screen and (min-width: 428px) and (max-width: 932px) {
+  .quote {
+    left: 70vw;
+    top: 30vh;
+  }
+  .scroll {
+    top: 75vh;
+  }
+}
