@@ -290,13 +290,11 @@ button:hover {
   gap: 24px;
   position: absolute;
   width: 864px;
-  height: 421px;
 }
 
 .content h2 {
   width: 442px;
   height: fit-content;
-
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
@@ -490,7 +488,7 @@ hr {
   }
   .content {
     width: 100vw;
-    padding: 35px 25px;
+    padding: 35px 25px 0;
     gap: 21px;
   }
   .content h2 {
