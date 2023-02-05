@@ -439,7 +439,7 @@ hr {
   color: #ffffff;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 932px) {
   nav button {
     display: none;
   }
