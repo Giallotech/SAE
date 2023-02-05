@@ -52,6 +52,7 @@ nav img {
 a {
   text-decoration: none;
   color: white;
+  transition: all 0.5s ease-out;
 }
 
 a:focus,
@@ -336,7 +337,7 @@ form .user-details .input-box {
   padding-left: 15px;
   font-size: 16px;
   border-bottom-width: 2px;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 
 .user-details .input-box input:focus,
