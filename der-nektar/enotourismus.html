@@ -37,6 +37,18 @@
       });
     </script> -->
 
+    <script type="text/javascript">
+      document.querySelector('#menu-toggle').addEventListener(
+        'change',
+        (e) => {
+          e.currentTarget.checked
+            ? (document.documentElement.style.overflowY = 'hidden')
+            : (document.documentElement.style.overflowY = '');
+        },
+        false
+      );
+    </script>
+
     <div class="besser">
       <h2>Besser trinken, besser essen, besser leben</h2>
       <p>

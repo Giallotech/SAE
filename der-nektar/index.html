@@ -42,6 +42,19 @@
       });
     </script> -->
 
+    <!-- Dieses Skript verhindert das Scrollen, wenn die Navigation auf dem Handy geöffnet ist -->
+    <script type="text/javascript">
+      document.querySelector('#menu-toggle').addEventListener(
+        'change',
+        (e) => {
+          e.currentTarget.checked
+            ? (document.documentElement.style.overflowY = 'hidden')
+            : (document.documentElement.style.overflowY = '');
+        },
+        false
+      );
+    </script>
+
     <div class="tradition">
       <div class="content">
         <h2>Unsere Tradition</h2>
