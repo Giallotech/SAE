@@ -246,7 +246,6 @@ h2 {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0px;
   gap: 78px;
   width: 100%;
 }
@@ -265,6 +264,7 @@ h3 {
 }
 
 .weintrauben p {
+  max-width: 725px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -493,12 +493,12 @@ hr {
 }
 @media screen and (min-width: 932px) and (max-width: 1405px) {
   .weintrauben {
-    padding: 40px 5px;
+    padding: 40px 8px;
   }
   .rebe {
-    gap: 5px;
+    gap: 8px;
   }
   .rebe img {
-    width: 480px;
+    width: 50vw;
   }
 }
