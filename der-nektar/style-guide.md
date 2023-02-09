@@ -4,7 +4,7 @@
 
 The designs were created to the following widths:
 
-- Mobile: 428px
+- Mobile: 430px
 - Desktop: 1440px
 
 ## Colors
@@ -13,6 +13,7 @@ The designs were created to the following widths:
 - Black Coffee: hex #352F2F
 - Chinese Bronze: hex #DA892A
 - White: hex #FFFFFF
+- Steel Pink: hex #BA2ADA
 
 ## Typography
 
@@ -20,10 +21,10 @@ The designs were created to the following widths:
 
 - Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
 - Weights: 500, 700
-- Font size: 40px, 32px, 24px
+- Font size: 40px, 36px, 32px, 24px
 
 ### Body
 
 - Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
 - Weights: 500
-- Font size: 16px, 20px, 36px
+- Font size: 16px, 20px, 24px, 36px

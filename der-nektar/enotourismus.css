@@ -597,8 +597,19 @@ hr {
     font-size: 12px;
   }
 }
-@media screen and (min-width: 428px) and (max-width: 932px) {
+@media screen and (min-width: 430px) and (max-width: 932px) {
   .scroll {
     top: 75vh;
+  }
+}
+@media screen and (min-width: 932px) and (max-width: 1405px) {
+  .erlebnisse {
+    padding: 40px 5px;
+  }
+  .beschreibung {
+    gap: 5px;
+  }
+  .erlebnisse img {
+    width: 480px;
   }
 }
