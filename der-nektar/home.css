@@ -70,9 +70,15 @@ a {
   color: white;
   transition: all 0.3s ease-out;
 }
-a:focus,
-a:hover,
-a:active {
+.unterseite:focus,
+.unterseite:hover,
+.unterseite:active {
+  color: #a5ee49;
+}
+
+.fragment:focus,
+.fragment:hover,
+.fragment:active {
   color: #ba2ada;
 }
 .navigation {
