@@ -13,7 +13,7 @@ The designs were created to the following widths:
 - Black Coffee: hex #352F2F
 - Chinese Bronze: hex #DA892A
 - White: hex #FFFFFF
-- Bright Navy Blue: hex #2A7BDA
+- Palatinate Blue: hex #312ADA
 - French Lime: hex #A5EE49
 
 ## Typography
