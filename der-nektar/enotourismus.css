@@ -59,9 +59,9 @@ a {
 .unterseite:active {
   color: #a5ee49;
 }
-.fragment:focus,
-.fragment:hover,
-.fragment:active {
+.button:focus,
+.button:hover,
+.button:active {
   color: #312ada;
 }
 .navigation {
